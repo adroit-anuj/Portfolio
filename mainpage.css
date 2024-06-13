@@ -13,12 +13,7 @@ body {
     min-height: 100vh;
 }
 
-header, footer {
-    background-color: #333;
-    color: #DCD5CC ;
-    text-align: center;
-    padding: 1rem 0;
-}
+
 
 .sidebar-links .sidebar-links-personal{
     font-family: 'Montserrat', sans-serif;
