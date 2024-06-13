@@ -1,3 +1,1 @@
-[# adroit-anuj.github.io
-Portfolio - Anuj Dubey
-](https://adroit-anuj.github.io/)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=adroit-anuj&label=Profile%20views&color=0e75b6&style=flat" alt="adroit-anuj" /> 
