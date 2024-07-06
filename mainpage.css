@@ -12,26 +12,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
- .website {
-    position: relative;
-    color: #ffffff;
-    text-decoration: none;
-}
 
-.website::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px; /* Adjust this value to place the underline exactly where you want it */
-    width: 0;
-    height: 1px; /* Adjust the thickness of the underline */
-    background-color: #ffffff; /* Adjust the color of the underline */
-    transition: width 1s;
-}
-
-.website:hover::after {
-    width: 100%;
-}
 
 header, footer {
     background-color: #333;
@@ -180,8 +161,28 @@ header, footer {
     color:#A19787;
     /* font-weight: 400; */
  }
+
   
-  
+  .website {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .website::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust this value to place the underline exactly where you want it */
+    width: 0;
+    height: 1px; /* Adjust the thickness of the underline */
+    background-color: #ffffff; /* Adjust the color of the underline */
+    transition: width 1s;
+  }
+
+  .website:hover::after {
+     width: 100%;
+  }
+
   
   .wrapper .facebook:hover,
   .wrapper .facebook:hover .tooltip,
