@@ -163,10 +163,10 @@ header, footer {
 .wrapper {
     display: inline-flex;
     list-style: none;
-    height: 100px;
-    width: 100%;
-    padding-top: 10px;
-    padding-left: 0;
+    height: 30px;
+    width: 79%;
+    padding-top: 0px;
+    padding-left: 8px;
     font-family: "Poppins", sans-serif;
     justify-content: center;
     margin-left: -25px;
